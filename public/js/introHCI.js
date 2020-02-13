@@ -28,3 +28,7 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
 }
+
+$('#testjs').click(function(e){
+	$.get('/project/random', addProject);
+})
